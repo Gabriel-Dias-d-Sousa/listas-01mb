@@ -1,0 +1,21 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ordenada{
+    color: darkcyan;
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nao-ordenada{
+    color: red;
+    font-family: italic;
+    font-size: 20px;
+    list-style: square;
+}
+
+#nao-ordenada li::marker{
+    color: blue;
+    font-size: 20px;
+}
